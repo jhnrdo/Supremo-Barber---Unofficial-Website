@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Find a Supremo Barber branch near you." />
+
+    <title>Our Branches | Supremo Barber</title>
+
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/branches.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="left-section">
+        <span>SUPREMO</span>
+        <span>BARBER</span>
+      </a>
+
+      <nav class="right-section" aria-label="Main navigation">
+        <div class="nav-div">
+          <a href="index.html">HOME</a>
+          <a href="index.html#services">SERVICES</a>
+          <a href="branches.html" class="active-link">BRANCHES</a>
+          <a href="index.html#gallery">GALLERY</a>
+          <a href="index.html#about">ABOUT</a>
+          <a href="booking.html" class="booking-button">BOOK A VISIT</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="branches-hero">
+        <div class="branches-hero-content">
+          <p>ONE BRAND. MANY LOCATIONS.</p>
+          <h1>Find Your Supremo</h1>
+
+          <span class="heading-line"></span>
+
+          <p class="branches-description">
+            Find a branch near you and take the first step toward your next
+            great cut.
+          </p>
+        </div>
+      </section>
+
+      <section class="branch-directory">
+        <div class="branch-controls">
+          <div class="branch-search">
+            <label for="branch-search">Search for a branch</label>
+
+            <div class="search-field">
+              <input
+                type="search"
+                id="branch-search"
+                placeholder="Search by city or branch..."
+              />
+
+              <button type="button" id="search-button">SEARCH</button>
+            </div>
+          </div>
+
+          <div class="branch-filters" aria-label="Filter branches by location">
+            <button type="button" class="filter-button active-filter">
+              ALL
+            </button>
+
+            <button type="button" class="filter-button">BULACAN</button>
+
+            <button type="button" class="filter-button">METRO MANILA</button>
+
+            <button type="button" class="filter-button">NUEVA ECIJA</button>
+          </div>
+        </div>
+
+        <div class="branch-results-heading">
+          <div>
+            <p>EXPLORE OUR LOCATIONS</p>
+            <h2>All Branches</h2>
+          </div>
+
+          <p class="branch-count">6 branches</p>
+        </div>
+
+        <div class="all-branch-grid">
+          <article
+            class="directory-branch-card"
+            id="guiguinto"
+            data-location="bulacan"
+          >
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Guiguinto branch interior"
+            />
+
+            <div class="directory-card-content">
+              <p class="branch-region">BULACAN</p>
+              <h3>Guiguinto</h3>
+
+              <p class="branch-address">
+                Official branch address will be added here.
+              </p>
+
+              <div class="branch-actions">
+                <a href="branch-details.html?branch=guiguinto">VIEW BRANCH</a>
+
+                <a href="#" class="directions-link">
+                  DIRECTIONS
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="directory-branch-card"
+            id="malolos"
+            data-location="bulacan"
+          >
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Malolos branch interior"
+            />
+
+            <div class="directory-card-content">
+              <p class="branch-region">BULACAN</p>
+              <h3>Malolos</h3>
+
+              <p class="branch-address">
+                Official branch address will be added here.
+              </p>
+
+              <div class="branch-actions">
+                <a href="branch-details.html?branch=malolos">VIEW BRANCH</a>
+
+                <a href="#" class="directions-link">
+                  DIRECTIONS
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="directory-branch-card"
+            id="quezon-city"
+            data-location="metro-manila"
+          >
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Quezon City branch interior"
+            />
+
+            <div class="directory-card-content">
+              <p class="branch-region">METRO MANILA</p>
+              <h3>Quezon City</h3>
+
+              <p class="branch-address">
+                Official branch address will be added here.
+              </p>
+
+              <div class="branch-actions">
+                <a href="branch-details.html?branch=quezon-city">VIEW BRANCH</a>
+
+                <a href="#" class="directions-link">
+                  DIRECTIONS
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="directory-branch-card"
+            id="caloocan"
+            data-location="metro-manila"
+          >
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Caloocan branch interior"
+            />
+
+            <div class="directory-card-content">
+              <p class="branch-region">METRO MANILA</p>
+              <h3>Caloocan</h3>
+
+              <p class="branch-address">
+                Official branch address will be added here.
+              </p>
+
+              <div class="branch-actions">
+                <a href="branch-details.html?branch=caloocan">VIEW BRANCH</a>
+
+                <a href="#" class="directions-link">
+                  DIRECTIONS
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="directory-branch-card"
+            id="manila"
+            data-location="metro-manila"
+          >
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Manila branch interior"
+            />
+
+            <div class="directory-card-content">
+              <p class="branch-region">METRO MANILA</p>
+              <h3>Manila</h3>
+
+              <p class="branch-address">
+                Official branch address will be added here.
+              </p>
+
+              <div class="branch-actions">
+                <a href="branch-details.html?branch=manila">VIEW BRANCH</a>
+
+                <a href="#" class="directions-link">
+                  DIRECTIONS
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="directory-branch-card"
+            id="cabanatuan"
+            data-location="nueva-ecija"
+          >
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Cabanatuan branch interior"
+            />
+
+            <div class="directory-card-content">
+              <p class="branch-region">NUEVA ECIJA</p>
+              <h3>Cabanatuan</h3>
+
+              <p class="branch-address">
+                Official branch address will be added here.
+              </p>
+
+              <div class="branch-actions">
+                <a href="branch-details.html?branch=cabanatuan">VIEW BRANCH</a>
+
+                <a href="#" class="directions-link">
+                  DIRECTIONS
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="no-results" hidden>No branches matched your search.</p>
+      </section>
+    </main>
+    <script src="branches.js"></script>
+  </body>
+</html>

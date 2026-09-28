@@ -1,0 +1,645 @@
+.branch-detail-hero {
+  min-height: 620px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 90px 8%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f5f1e8;
+}
+
+.branch-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.28)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.75), transparent 60%);
+}
+
+.branch-detail-hero-content {
+  max-width: 850px;
+  position: relative;
+  z-index: 1;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 50px;
+  color: #be9b65;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.branch-detail-hero-content > p:not(.hero-address) {
+  margin: 0 0 12px;
+  color: #be9b65;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.branch-detail-hero h1 {
+  margin: 0;
+  font-size: clamp(55px, 8vw, 105px);
+  line-height: 0.95;
+}
+
+.hero-address {
+  margin: 25px 0 0;
+  color: #d1cdc5;
+  font-size: 18px;
+}
+
+.branch-information {
+  padding: 110px 8%;
+  background-color: #0c0c0c;
+  color: #f5f1e8;
+}
+
+.branch-information-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.section-label {
+  margin: 0 0 15px;
+  color: #be9b65;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.branch-main-information h2 {
+  max-width: 650px;
+  margin: 0;
+  font-size: clamp(38px, 5vw, 62px);
+  line-height: 1.05;
+}
+
+.branch-introduction {
+  max-width: 650px;
+  margin: 28px 0 45px;
+  color: #aaa69f;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.branch-details-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 45px;
+}
+
+.information-item {
+  padding: 0 25px;
+  border-left: 1px solid rgba(190, 155, 101, 0.3);
+}
+
+.information-item:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+.information-label {
+  margin: 0 0 10px;
+  color: #be9b65;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.information-item p:not(.information-label),
+.information-item a {
+  margin: 0;
+  color: #d0ccc4;
+  font-size: 14px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.branch-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.branch-buttons a {
+  padding: 15px 23px;
+  border: 1px solid #be9b65;
+  background-color: #be9b65;
+  color: #080808;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.branch-buttons .outline-button {
+  background-color: transparent;
+  color: #f5f1e8;
+}
+
+.branch-image-container {
+  overflow: hidden;
+}
+
+.branch-image-container img {
+  width: 100%;
+  min-height: 520px;
+  display: block;
+  object-fit: cover;
+}
+
+.branch-services {
+  padding: 100px 8%;
+  background-color: #121212;
+  color: #f5f1e8;
+}
+
+.branch-services-heading {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.branch-services-heading > p {
+  margin: 0 0 12px;
+  color: #be9b65;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.branch-services-heading h2 {
+  margin: 0;
+  font-size: clamp(38px, 5vw, 58px);
+}
+
+.branch-services-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.branch-services-grid article {
+  padding: 25px 45px;
+  text-align: center;
+}
+
+.branch-services-grid article + article {
+  border-left: 1px solid rgba(245, 241, 232, 0.15);
+}
+
+.branch-services-grid span {
+  color: #be9b65;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.branch-services-grid h3 {
+  margin: 18px 0 12px;
+  font-size: 24px;
+}
+
+.branch-services-grid p {
+  margin: 0;
+  color: #97938c;
+  line-height: 1.7;
+}
+
+.branch-map-section {
+  padding: 80px 8%;
+  background-color: #080808;
+}
+
+.map-placeholder {
+  max-width: 1250px;
+  min-height: 340px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(190, 155, 101, 0.3);
+  background:
+    linear-gradient(rgba(8, 8, 8, 0.85), rgba(8, 8, 8, 0.85)),
+    url("images/map-background.jpg") center / cover;
+  color: #f5f1e8;
+  text-align: center;
+}
+
+.map-placeholder p {
+  margin: 0 0 10px;
+  color: #be9b65;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.map-placeholder h2 {
+  margin: 0 0 30px;
+  font-size: clamp(32px, 5vw, 48px);
+}
+
+.map-placeholder a {
+  padding: 15px 22px;
+  border: 1px solid #be9b65;
+  color: #f5f1e8;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.branch-cta {
+  padding: 90px 24px;
+  background-color: #16110d;
+  color: #f5f1e8;
+  text-align: center;
+}
+
+.branch-cta p {
+  margin: 0 0 12px;
+  color: #be9b65;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.branch-cta h2 {
+  margin: 0 0 30px;
+  font-size: clamp(38px, 6vw, 65px);
+}
+
+.branch-cta a {
+  display: inline-block;
+  padding: 16px 25px;
+  background-color: #be9b65;
+  color: #080808;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+/* ==================================================
+   BRANCH DETAILS — RESPONSIVE DESIGN
+================================================== */
+
+/* Large laptops */
+@media (max-width: 1200px) {
+  .branch-detail-hero,
+  .branch-information,
+  .branch-services,
+  .branch-map-section {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+
+  .branch-information-container {
+    gap: 55px;
+  }
+
+  .branch-details-grid {
+    gap: 10px;
+  }
+
+  .information-item {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .branch-services-grid article {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+/* Tablets and smaller laptops */
+@media (max-width: 992px) {
+  .branch-detail-hero {
+    min-height: 540px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-position: 70% center;
+  }
+
+  .back-link {
+    margin-bottom: 35px;
+  }
+
+  .branch-information {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .branch-information-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .branch-image-container {
+    order: -1;
+  }
+
+  .branch-image-container img {
+    width: 100%;
+    min-height: 0;
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .branch-main-information {
+    width: 100%;
+  }
+
+  .branch-main-information h2,
+  .branch-introduction {
+    max-width: 750px;
+  }
+
+  .branch-services {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .branch-map-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+/* Medium tablets */
+@media (max-width: 800px) {
+  .branch-detail-hero {
+    min-height: 500px;
+    padding: 65px 40px;
+    background-position: 75% center;
+  }
+
+  .branch-detail-hero h1 {
+    font-size: clamp(50px, 11vw, 80px);
+  }
+
+  .hero-address {
+    max-width: 600px;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .branch-information,
+  .branch-services,
+  .branch-map-section {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .branch-details-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 40px;
+  }
+
+  .information-item {
+    padding: 22px 0;
+    border-top: 1px solid rgba(190, 155, 101, 0.3);
+    border-left: none;
+  }
+
+  .information-item:first-child {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .branch-services-grid {
+    max-width: 600px;
+    grid-template-columns: 1fr;
+  }
+
+  .branch-services-grid article {
+    padding: 35px 20px;
+  }
+
+  .branch-services-grid article + article {
+    border-top: 1px solid rgba(245, 241, 232, 0.15);
+    border-left: none;
+  }
+
+  .map-placeholder {
+    min-height: 310px;
+    padding: 45px 25px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  .branch-detail-hero {
+    min-height: 460px;
+    align-items: flex-end;
+    padding: 55px 24px;
+    background-position: 78% center;
+  }
+
+  .branch-hero-overlay {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.08) 0%,
+        rgba(0, 0, 0, 0.3) 45%,
+        rgba(0, 0, 0, 0.9) 100%
+      ),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.08));
+  }
+
+  .back-link {
+    margin-bottom: 30px;
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .branch-detail-hero-content > p:not(.hero-address) {
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+  }
+
+  .branch-detail-hero h1 {
+    font-size: clamp(42px, 13vw, 62px);
+    line-height: 1;
+  }
+
+  .hero-address {
+    margin-top: 18px;
+    font-size: 15px;
+  }
+
+  .branch-information {
+    padding: 70px 24px;
+  }
+
+  .branch-information-container {
+    gap: 40px;
+  }
+
+  .branch-image-container img {
+    height: 330px;
+    object-position: center;
+  }
+
+  .section-label {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .branch-main-information h2 {
+    font-size: clamp(36px, 10vw, 48px);
+  }
+
+  .branch-introduction {
+    margin-top: 22px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .branch-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .branch-buttons a {
+    width: 100%;
+    padding: 15px 18px;
+    text-align: center;
+  }
+
+  .branch-services {
+    padding: 70px 24px;
+  }
+
+  .branch-services-heading {
+    margin-bottom: 40px;
+  }
+
+  .branch-services-heading h2 {
+    font-size: clamp(36px, 10vw, 46px);
+  }
+
+  .branch-services-grid article {
+    padding: 32px 10px;
+  }
+
+  .branch-map-section {
+    padding: 60px 24px;
+  }
+
+  .map-placeholder {
+    min-height: 280px;
+    padding: 40px 20px;
+  }
+
+  .map-placeholder h2 {
+    font-size: clamp(30px, 9vw, 42px);
+  }
+
+  .map-placeholder a {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .branch-cta {
+    padding: 70px 24px;
+  }
+
+  .branch-cta h2 {
+    font-size: clamp(36px, 11vw, 52px);
+  }
+
+  .branch-cta a {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 400px) {
+  .branch-detail-hero {
+    min-height: 430px;
+    padding: 45px 18px;
+  }
+
+  .branch-detail-hero h1 {
+    font-size: clamp(38px, 12vw, 48px);
+  }
+
+  .branch-information,
+  .branch-services,
+  .branch-map-section {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .branch-image-container img {
+    height: 280px;
+  }
+
+  .branch-main-information h2 {
+    font-size: 34px;
+  }
+
+  .branch-services-heading h2 {
+    font-size: 34px;
+  }
+
+  .map-placeholder {
+    min-height: 260px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .branch-cta {
+    padding: 60px 18px;
+  }
+
+  .branch-cta h2 {
+    font-size: 36px;
+  }
+}
+
+/* Landscape phones */
+@media (max-height: 550px) and (orientation: landscape) {
+  .branch-detail-hero {
+    min-height: 520px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-position: 75% center;
+  }
+
+  .branch-detail-hero h1 {
+    font-size: 58px;
+  }
+
+  .branch-image-container img {
+    height: 400px;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .branch-buttons a,
+  .branch-services-grid article,
+  .map-placeholder a,
+  .branch-cta a {
+    transition: none;
+  }
+}

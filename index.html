@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supremo Barber - Unofficial website</title>
+
+    <link rel="stylesheet" href="styles/home.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="left-section">
+        <span>SUPREMO</span>
+        <span>BARBER</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="right-section" id="main-navigation">
+        <div class="nav-div">
+          <a href="#home">HOME</a>
+          <a href="#services">SERVICES</a>
+          <a href="branches.html">BRANCHES</a>
+          <a href="#gallery">GALLERY</a>
+          <a href="#about">ABOUT</a>
+          <a href="booking.html" class="booking-button">BOOK A VISIT</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <img
+          src="images/supremo-hero.png"
+          alt="Barber giving a customer a haircut"
+          class="hero-image"
+        />
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="hero-label">THE SUPREMO EXPERIENCE</p>
+
+          <h1>
+            LOOK SHARP.<br />
+            FEEL SUPREMO.
+          </h1>
+
+          <p class="hero-description">
+            Classic craft. Modern style. Find your chair.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#branches" class="primary-button">FIND A BRANCH</a>
+
+            <a href="#services" class="secondary-button"> EXPLORE SERVICES </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-heading">
+          <p>CRAFTED FOR YOUR STYLE</p>
+          <h2>Grooming, done right.</h2>
+          <span class="heading-line"></span>
+        </div>
+
+        <div class="services-container">
+          <article class="service-card">
+            <div class="service-icon">✂</div>
+            <h3>Signature Haircut</h3>
+            <p>
+              Tailored cuts designed to complement your style, features, and
+              personality.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">♜</div>
+            <h3>Beard &amp; Shave</h3>
+            <p>
+              Clean shaves and carefully shaped beards finished with traditional
+              barbering techniques.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">◆</div>
+            <h3>Complete Grooming</h3>
+            <p>
+              Complete grooming treatments that leave you looking sharp from
+              head to toe.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="featured-branches" id="branches">
+        <div class="section-heading">
+          <p>FIND YOUR NEAREST CHAIR</p>
+          <h2>Featured Branches</h2>
+          <span class="heading-line"></span>
+        </div>
+
+        <div class="branches-container">
+          <article class="branch-card">
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Guiguinto branch"
+            />
+
+            <div class="branch-content">
+              <p class="branch-location">BULACAN</p>
+              <h3>Guiguinto</h3>
+
+              <a href="branches.html?branch=guiguinto" class="branch-link">
+                VIEW BRANCH <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="branch-card">
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Quezon City branch"
+            />
+
+            <div class="branch-content">
+              <p class="branch-location">METRO MANILA</p>
+              <h3>Quezon City</h3>
+
+              <a href="branches.html?branch=quezon-city" class="branch-link">
+                VIEW BRANCH <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="branch-card">
+            <img
+              src="images/supremo-hero.png"
+              alt="Supremo Barber Cabanatuan branch"
+            />
+
+            <div class="branch-content">
+              <p class="branch-location">NUEVA ECIJA</p>
+              <h3>Cabanatuan</h3>
+
+              <a href="branches.html?branch=cabanatuan" class="branch-link">
+                VIEW BRANCH <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="all-branches">
+          <a href="branches.html" class="all-branches-button">
+            VIEW ALL BRANCHES
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
